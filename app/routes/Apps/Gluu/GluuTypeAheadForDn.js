@@ -3,10 +3,10 @@ import { FormGroup, Col } from '../../../components'
 import { Typeahead } from 'react-bootstrap-typeahead'
 import GluuLabel from '../Gluu/GluuLabel'
 import Typography from '@material-ui/core/Typography'
-import { createTheme, ThemeProvider } from '@material-ui/core/styles'
+import { createMuiTheme, ThemeProvider } from '@material-ui/core/styles'
 import { useTranslation } from 'react-i18next'
 
-const theme = createTheme({
+const theme = createMuiTheme({
   typography: {
     subtitle1: {
       fontSize: 12,
